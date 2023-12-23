@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="logo">
+		  <img src= "pics/LOGO.png" alt="Logo">
+		</div>
+		<ul class="nav-links">
+		  <li><a href="/index.html">Home</a></li>
+		  <li><a href="/about us/">About Us</a></li>
+		  <li><a href="/contact us/">Contact Us</a></li>
+		</ul>
+	  </nav>
+	<!-- partial:index.partial.html -->
+	<div class="container">
+		<header class="head">
+			<h1 id="title">CONTACT US</h1>
+			<p id="description">
+				"Kindly share your valuable opinions through our Contact Us form. We appreciate and welcome your
+				thoughtful feedback in a respectful manner."
+
+
+
+
+
+
+
+			</p>
+		</header>
+		<form action="" id="survey-form">
+			<div class="form-element">
+				<label for="name" id="name-label">Name</label>
+				<input type="text" id="name" class="form-control" placeholder="Enter your Name" required />
+			</div>
+			<div class="form-element">
+				<label for="email" id="email-label">Email</label>
+				<input type="email" id="email" placeholder="Enter your Email Id" class="form-control" required />
+			</div>
+			<div class="form-element">
+				<label for="number" id="number-label">Age</label>
+				<input type="number" id="number" name="Age" min="10" max="99" placeholder=" Age" class="form-control" />
+			</div>
+			<div class="form-element">
+				<p>Which language you like most?</p>
+				<select id="dropdown" name="role" class="form-control" required>
+					<option disabled selected value>Select the language</option>
+					<option value="Html">Hindi</option>
+					<option value="Css">English</option>
+					<option value="js">Tamil</option>
+					<option value="C/C++">Telugu</option>
+					<option value="C/C++">Marathi</option>
+					<option value="C/C++">Bengali</option>
+					<option value="C/C++">Kannada</option>
+					<option value="Python">Malayalam</option>
+					<option value="Python">Punjabi</option>
+					<option value="Python">Other</option>
+					
+				</select>
+			</div>
+			<div class="form-element">
+				<p>How would you describe your overall experience with our platform?</p>
+				<label>
+					<input name="rating" type="radio" class="input-radio" value="Good" checked />Excellent
+				</label>
+				<label>
+					<input name="rating" type="radio" class="input-radio" value="Nice" />Good
+				</label>
+				<label>
+					<input name="rating" type="radio" class="input-radio" value="Best" />Average
+				</label>
+				<label>
+					<input name="rating" type="radio" class="input-radio" value="bad" />Below Average
+				</label>
+				<label>
+					<input name="rating" type="radio" class="input-radio" value="bad" />Poor
+				</label>
+			</div>
+			
+		
+			<div class="form-element">
+				<p> "Questions or feedback? Contact us; your input is appreciated."</p>
+				<textarea class="form-control" name="message" id="comments"
+					placeholder="Enter your Message...."></textarea>
+			</div>
+			<div class="form-element">
+				<button type="submit" id="submit">Submit</button>
+			</div>
+		</form>
+	</div>
+	<!-- partial -->
+	<!-- <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script> -->
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
